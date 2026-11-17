@@ -1,0 +1,34 @@
+# Zum Einfügen in den Embed-Block der StoryMap:
+# den iFrame-Code unter der jeweiligen Bezeichnung kopieren.
+# Nicht die nackte URL aus dem src einfügen — dann erzwingt
+# StoryMaps eine eigene, flache Blockhöhe.
+
+Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/endenergie_struktur_weyarn.html" width="100%" height="750" title="Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp Weyarn" style="border:0" loading="lazy"></iframe>
+
+Endenergie- und Nutzwärmeverbrauch nach Energieträgern
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/energietraeger_anteile_weyarn.html" width="100%" height="561" title="Endenergie- und Nutzwärmeverbrauch nach Energieträgern Weyarn" style="border:0" loading="lazy"></iframe>
+
+CO₂-Äquivalente
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_aequivalent_weyarn.html" width="100%" height="521" title="CO₂-Äquivalente Weyarn" style="border:0" loading="lazy"></iframe>
+
+Wärme leitungsgebunden
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waerme_leitungsgebunden_weyarn.html" width="100%" height="531" title="Wärme leitungsgebunden Weyarn" style="border:0" loading="lazy"></iframe>
+
+Anzahl Feuerstätten nach Bauart und Energieträger
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/feuerstaetten_weyarn.html" width="100%" height="421" title="Anzahl Feuerstätten nach Bauart und Energieträger Weyarn" style="border:0" loading="lazy"></iframe>
+
+Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/potenzial_weyarn.html" width="100%" height="550" title="Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger Weyarn" style="border:0" loading="lazy"></iframe>
+
+Entwicklung Wärmemix Nutzenergie
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/nutzwaerme_weyarn.html" width="100%" height="550" title="Entwicklung Wärmemix Nutzenergie Weyarn" style="border:0" loading="lazy"></iframe>
+
+Entwicklung CO₂-Emissionen
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_entwicklung_weyarn.html" width="100%" height="550" title="Entwicklung CO₂-Emissionen Weyarn" style="border:0" loading="lazy"></iframe>
+
+Entwicklung Wärmemix Endenergie
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waermemix_endenergie_weyarn.html" width="100%" height="550" title="Entwicklung Wärmemix Endenergie Weyarn" style="border:0" loading="lazy"></iframe>
+
+Sanierungsszenario
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/sanierung_weyarn.html" width="100%" height="550" title="Sanierungsszenario Weyarn" style="border:0" loading="lazy"></iframe>
