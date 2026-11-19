@@ -4,28 +4,28 @@
 # StoryMaps eine eigene, flache Blockhöhe.
 
 Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/endenergie_struktur_kochel.html" width="100%" height="750" title="Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/endenergie_struktur_kochel.html" width="100%" height="750" title="Kochel: Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp" style="border:0" loading="lazy"></iframe>
 
 Endenergie- und Nutzwärmeverbrauch nach Energieträgern
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/energietraeger_anteile_kochel.html" width="100%" height="561" title="Endenergie- und Nutzwärmeverbrauch nach Energieträgern Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/energietraeger_anteile_kochel.html" width="100%" height="561" title="Kochel: Endenergie- und Nutzwärmeverbrauch nach Energieträgern" style="border:0" loading="lazy"></iframe>
 
 CO₂-Äquivalente
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_aequivalent_kochel.html" width="100%" height="521" title="CO₂-Äquivalente Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_aequivalent_kochel.html" width="100%" height="521" title="Kochel: CO₂-Äquivalente" style="border:0" loading="lazy"></iframe>
 
 Anzahl Feuerstätten nach Bauart und Energieträger
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/feuerstaetten_kochel.html" width="100%" height="421" title="Anzahl Feuerstätten nach Bauart und Energieträger Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/feuerstaetten_kochel.html" width="100%" height="421" title="Kochel: Anzahl Feuerstätten nach Bauart und Energieträger" style="border:0" loading="lazy"></iframe>
 
 Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/potenzial_kochel.html" width="100%" height="550" title="Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/potenzial_kochel.html" width="100%" height="550" title="Kochel: Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger" style="border:0" loading="lazy"></iframe>
 
-Entwicklung Wärmemix Nutzenergie
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/nutzwaerme_kochel.html" width="100%" height="550" title="Entwicklung Wärmemix Nutzenergie Kochel" style="border:0" loading="lazy"></iframe>
+Entwicklung Wärmemix (Nutzwärme)
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/nutzwaerme_kochel.html" width="100%" height="550" title="Kochel: Entwicklung Wärmemix (Nutzwärme)" style="border:0" loading="lazy"></iframe>
 
 Entwicklung CO₂-Emissionen
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_entwicklung_kochel.html" width="100%" height="550" title="Entwicklung CO₂-Emissionen Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_entwicklung_kochel.html" width="100%" height="550" title="Kochel: Entwicklung CO₂-Emissionen" style="border:0" loading="lazy"></iframe>
 
 Entwicklung Wärmemix Endenergie
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waermemix_endenergie_kochel.html" width="100%" height="550" title="Entwicklung Wärmemix Endenergie Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waermemix_endenergie_kochel.html" width="100%" height="550" title="Kochel: Entwicklung Wärmemix Endenergie" style="border:0" loading="lazy"></iframe>
 
 Sanierungsszenario
-<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/sanierung_kochel.html" width="100%" height="550" title="Sanierungsszenario Kochel" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/sanierung_kochel.html" width="100%" height="550" title="Kochel: Sanierungsszenario" style="border:0" loading="lazy"></iframe>

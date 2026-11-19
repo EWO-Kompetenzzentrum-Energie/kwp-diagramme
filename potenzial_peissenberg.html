@@ -167,7 +167,7 @@
     <h1 id="titel">Peißenberg: Potenzialanalyse</h1>
     <button type="button" class="hinweis-schalter hinweis-zeichen" aria-expanded="false" aria-controls="datentabelle-hinweis" aria-label="Bedienung des Diagramms" onclick="hinweisUmschalten(this)">ⓘ</button>
   </div>
-  <p>Nutzenergie [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
+  <p>Nutzwärme [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
   <div id="datentabelle-hinweis" class="bedienhinweis hinweis-unten" role="note" hidden>Einzelne Datenreihen lassen sich über die Legende aus- und wieder einblenden — dafür den Eintrag auswählen. So lassen sich einzelne Anteile für sich betrachten oder miteinander vergleichen.</div>
 </div>
 <p id="hinweis" class="sr-only">Interaktives Diagramm. Die Legende ist mit der Tabulatortaste erreichbar; einzelne Datenreihen lassen sich dort mit Enter oder der Leertaste ein- und ausblenden. Alle Werte stehen unter dem Diagramm auch als Datentabelle.</p>
@@ -178,7 +178,7 @@
     <button type="button" class="tabelle-schalter" aria-expanded="false" aria-controls="datentabelle"
             onclick="tabelleUmschalten(this)">Datentabelle anzeigen</button>
   </div>
-  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Peißenberg: Nutzenergie in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>2,7</td><td>4,6</td><td>0,0</td><td>7,3</td></tr><tr><th scope="row">Energieholz</th><td>18,8</td><td>19,5</td><td>0,0</td><td>38,3</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>1,7</td><td>17,3</td><td>7,7</td><td>26,7</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>1,2</td><td>23,6</td><td>73,9</td><td>98,7</td></tr><tr><th scope="row">Umweltwärme Klärwasser</th><td>0,0</td><td>1,2</td><td>0,0</td><td>1,2</td></tr><tr><th scope="row">Fernwärme</th><td>31,8</td><td>0,0</td><td>32,2</td><td>64,0</td></tr><tr><th scope="row">ind. Abwärme (Prüfung ob EE)</th><td>0,0</td><td>0,0</td><td>1,4</td><td>1,4</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>3,2</td><td>0,0</td><td>3,2</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>56,3</td><td>69,4</td><td>115,3</td><td>241,0</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 115,6 GWh/a</p><p>konservatives Sanierungsszenario (2045): 143,2 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 124,3 GWh/a</p></div>
+  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Peißenberg: Nutzwärme in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>2,7</td><td>4,6</td><td>0,0</td><td>7,3</td></tr><tr><th scope="row">Energieholz</th><td>18,8</td><td>19,5</td><td>0,0</td><td>38,3</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>1,7</td><td>17,3</td><td>7,7</td><td>26,7</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>1,2</td><td>23,6</td><td>73,9</td><td>98,7</td></tr><tr><th scope="row">Umweltwärme Klärwasser</th><td>0,0</td><td>1,2</td><td>0,0</td><td>1,2</td></tr><tr><th scope="row">Fernwärme</th><td>31,8</td><td>0,0</td><td>32,2</td><td>64,0</td></tr><tr><th scope="row">ind. Abwärme (Prüfung ob EE)</th><td>0,0</td><td>0,0</td><td>1,4</td><td>1,4</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>3,2</td><td>0,0</td><td>3,2</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>56,3</td><td>69,4</td><td>115,3</td><td>241,0</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 115,6 GWh/a</p><p>konservatives Sanierungsszenario (2045): 143,2 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 124,3 GWh/a</p></div>
 </div>
 <script>
 const labels = ["Solarthermie", "Energieholz", "Oberfl. Geothermie (EWS & GWWP)", "Luft-Wasser-WP", "Umweltw\u00e4rme Kl\u00e4rwasser", "Fernw\u00e4rme", "ind. Abw\u00e4rme (Pr\u00fcfung ob EE)", "Biogas W\u00e4rme", "Gesamt (erneuerbar)"];
@@ -222,7 +222,7 @@ const layout = {
   // zehn Kategorien. automargin holt sich den noetigen Platz unten selbst.
   xaxis: { fixedrange: true, tickangle: -45, automargin: true, showline: true, linecolor: '#595959', linewidth: 1,
             tickfont: { size: 14 } },
-  yaxis: { fixedrange: true, title: { text: 'Nutzenergie [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
+  yaxis: { fixedrange: true, title: { text: 'Nutzwärme [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
             gridcolor: '#eee', zeroline: false, tickfont: { size: 14 },
             rangemode: 'nonnegative', showline: true, linecolor: '#595959', linewidth: 1 },
   // Interaktive Fassung: Legende rechts neben dem Diagramm. In der PNG-Fassung
