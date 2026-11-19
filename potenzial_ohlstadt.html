@@ -178,17 +178,17 @@
     <button type="button" class="tabelle-schalter" aria-expanded="false" aria-controls="datentabelle"
             onclick="tabelleUmschalten(this)">Datentabelle anzeigen</button>
   </div>
-  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Ohlstadt: Nutzenergie in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2024</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>1,1</td><td>0,8</td><td>0,0</td><td>1,9</td></tr><tr><th scope="row">Energieholz</th><td>6,7</td><td>0,0</td><td>0,0</td><td>6,7</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,1</td><td>1,0</td><td>2,0</td><td>3,1</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>0,0</td><td>6,7</td><td>13,2</td><td>19,9</td></tr><tr><th scope="row">Fernwärme</th><td>0,0</td><td>2,0</td><td>0,0</td><td>2,0</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>7,9</td><td>10,4</td><td>0,0</td><td>18,3</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2024: 31,0 GWh/a</p><p>konservatives Sanierungsszenario (2045): 24,7 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 21,9 GWh/a</p></div>
+  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Ohlstadt: Nutzenergie in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2024</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>1,1</td><td>0,8</td><td>0,0</td><td>1,9</td></tr><tr><th scope="row">Energieholz</th><td>6,4</td><td>0,0</td><td>0,0</td><td>6,4</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,1</td><td>0,9</td><td>2,1</td><td>3,1</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>0,0</td><td>6,6</td><td>12,8</td><td>19,4</td></tr><tr><th scope="row">Fernwärme</th><td>0,0</td><td>1,9</td><td>0,0</td><td>1,9</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>7,6</td><td>10,2</td><td>0,0</td><td>17,8</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2024: 30,5 GWh/a</p><p>konservatives Sanierungsszenario (2045): 24,3 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 21,5 GWh/a</p></div>
 </div>
 <script>
 const labels = ["Solarthermie", "Energieholz", "Oberfl. Geothermie (EWS & GWWP)", "Luft-Wasser-WP", "Fernw\u00e4rme", "Gesamt (erneuerbar)"];
-const ist = [1.1, 6.7, 0.1, 0.0, 0.0, 7.9];
-const wirt = [0.8, 0.0, 1.0, 6.7, 2.0, 10.4];
-const techx = [0.0, 0.0, 2.0, 13.2, 0.0, 0.0];
+const ist = [1.1, 6.4, 0.1, 0.0, 0.0, 7.6];
+const wirt = [0.8, 0.0, 0.9, 6.6, 1.9, 10.2];
+const techx = [0.0, 0.0, 2.1, 12.8, 0.0, 0.0];
 // null, wenn die Zeile in der Excel fehlt -- die Linie entfaellt dann ganz.
-const gesamtbedarf = 31.0;
-const konservativ = 24.7;
-const ambitioniert = 21.9;
+const gesamtbedarf = 30.5;
+const konservativ = 24.3;
+const ambitioniert = 21.5;
 
 // Die y-Werte sind bereits Zuwaechse, das Stapeln uebernimmt barmode 'stack'.
 // Nicht ueber feste base-Werte stapeln: beim Ausblenden einer Reihe ueber die
