@@ -167,7 +167,7 @@
     <h1 id="titel">Geretsried: Sanierungsszenario</h1>
     <button type="button" class="hinweis-schalter hinweis-zeichen" aria-expanded="false" aria-controls="datentabelle-hinweis" aria-label="Bedienung des Diagramms" onclick="hinweisUmschalten(this)">ⓘ</button>
   </div>
-  <p>Nutzenergie [MWh] je Stützjahr, Szenario Fortschreibung/O45</p>
+  <p>Nutzwärme [MWh] je Stützjahr, Szenario Fortschreibung/O45</p>
   <div id="datentabelle-hinweis" class="bedienhinweis hinweis-unten" role="note" hidden>Einzelne Datenreihen lassen sich über die Legende aus- und wieder einblenden — dafür den Eintrag auswählen. So lassen sich einzelne Anteile für sich betrachten oder miteinander vergleichen.</div>
 </div>
 <p id="hinweis" class="sr-only">Interaktives Diagramm. Die Legende ist mit der Tabulatortaste erreichbar; einzelne Datenreihen lassen sich dort mit Enter oder der Leertaste ein- und ausblenden. Alle Werte stehen unter dem Diagramm auch als Datentabelle.</p>
@@ -178,7 +178,7 @@
     <button type="button" class="tabelle-schalter" aria-expanded="false" aria-controls="datentabelle"
             onclick="tabelleUmschalten(this)">Datentabelle anzeigen</button>
   </div>
-  <div id="datentabelle" class="tabelle" hidden><table><caption>Sanierungsszenario Geretsried: Nutzenergie in MWh</caption><thead><tr><th scope="col">Jahr</th><th scope="col">Szenario Fortschreibung</th><th scope="col">Szenario O45</th></tr></thead><tbody><tr><th scope="row">2023</th><td>279.110</td><td>279.110</td></tr><tr><th scope="row">2030</th><td>165.061</td><td>158.297</td></tr><tr><th scope="row">2035</th><td>157.441</td><td>146.032</td></tr><tr><th scope="row">2040</th><td>150.176</td><td>134.718</td></tr><tr><th scope="row">2045</th><td>143.249</td><td>124.280</td></tr></tbody></table><p>Fortschreibung 2023→2045: -135.862 MWh (-49 %)</p><p>O45 2023→2045: -154.831 MWh (-55 %)</p></div>
+  <div id="datentabelle" class="tabelle" hidden><table><caption>Sanierungsszenario Geretsried: Nutzwärme in MWh</caption><thead><tr><th scope="col">Jahr</th><th scope="col">Szenario Fortschreibung</th><th scope="col">Szenario O45</th></tr></thead><tbody><tr><th scope="row">2023</th><td>279.110</td><td>279.110</td></tr><tr><th scope="row">2030</th><td>165.061</td><td>158.297</td></tr><tr><th scope="row">2035</th><td>157.441</td><td>146.032</td></tr><tr><th scope="row">2040</th><td>150.176</td><td>134.718</td></tr><tr><th scope="row">2045</th><td>143.249</td><td>124.280</td></tr></tbody></table><p>Fortschreibung 2023→2045: -135.862 MWh (-49 %)</p><p>O45 2023→2045: -154.831 MWh (-55 %)</p></div>
 </div>
 <script>
 const years = [2023, 2030, 2035, 2040, 2045];
@@ -200,7 +200,7 @@ const layout = {
   margin: { t: 52, l: 70, r: 10, b: 10 },
   xaxis: { fixedrange: true, type: 'linear', tickmode: 'array', tickvals: years, ticktext: years.map(String),
             tickangle: 0, automargin: true, tickfont: { size: 14 } },
-  yaxis: { fixedrange: true, title: { text: 'Nutzenergie [MWh]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
+  yaxis: { fixedrange: true, title: { text: 'Nutzwärme [MWh]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
             gridcolor: '#eee', zeroline: false, tickformat: ',.0f',
             tickfont: { size: 14 } },
   // Interaktive Fassung: Legende rechts. In der PNG-Fassung (fig_sanierung)

@@ -167,7 +167,7 @@
     <h1 id="titel">Kochel: Potenzialanalyse</h1>
     <button type="button" class="hinweis-schalter hinweis-zeichen" aria-expanded="false" aria-controls="datentabelle-hinweis" aria-label="Bedienung des Diagramms" onclick="hinweisUmschalten(this)">ⓘ</button>
   </div>
-  <p>Nutzenergie [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
+  <p>Nutzwärme [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
   <div id="datentabelle-hinweis" class="bedienhinweis hinweis-unten" role="note" hidden>Einzelne Datenreihen lassen sich über die Legende aus- und wieder einblenden — dafür den Eintrag auswählen. So lassen sich einzelne Anteile für sich betrachten oder miteinander vergleichen.</div>
 </div>
 <p id="hinweis" class="sr-only">Interaktives Diagramm. Die Legende ist mit der Tabulatortaste erreichbar; einzelne Datenreihen lassen sich dort mit Enter oder der Leertaste ein- und ausblenden. Alle Werte stehen unter dem Diagramm auch als Datentabelle.</p>
@@ -178,12 +178,12 @@
     <button type="button" class="tabelle-schalter" aria-expanded="false" aria-controls="datentabelle"
             onclick="tabelleUmschalten(this)">Datentabelle anzeigen</button>
   </div>
-  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Kochel: Nutzenergie in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>0,7</td><td>1,9</td><td>0,0</td><td>2,6</td></tr><tr><th scope="row">Energieholz</th><td>10,0</td><td>10,9</td><td>0,0</td><td>20,9</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,3</td><td>0,0</td><td>0,2</td><td>0,5</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>2,1</td><td>10,2</td><td>20,9</td><td>33,2</td></tr><tr><th scope="row">Fernwärme</th><td>0,0</td><td>7,4</td><td>0,0</td><td>7,4</td></tr><tr><th scope="row">Gewässerthermie</th><td>0,0</td><td>0,0</td><td>36,3</td><td>36,3</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>0,0</td><td>2,8</td><td>2,8</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>13,1</td><td>30,4</td><td>60,2</td><td>103,7</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 57,6 GWh/a</p><p>konservatives Sanierungsszenario (2045): 45,5 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 40,5 GWh/a</p></div>
+  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Kochel: Nutzwärme in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>0,7</td><td>1,9</td><td>0,0</td><td>2,6</td></tr><tr><th scope="row">Energieholz</th><td>10,0</td><td>8,4</td><td>0,0</td><td>18,4</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,3</td><td>0,0</td><td>0,2</td><td>0,5</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>2,1</td><td>10,2</td><td>20,9</td><td>33,2</td></tr><tr><th scope="row">Fernwärme</th><td>0,0</td><td>7,4</td><td>0,0</td><td>7,4</td></tr><tr><th scope="row">Gewässerthermie</th><td>0,0</td><td>0,0</td><td>36,3</td><td>36,3</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>0,0</td><td>2,8</td><td>2,8</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>13,1</td><td>27,8</td><td>60,2</td><td>101,1</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 57,6 GWh/a</p><p>konservatives Sanierungsszenario (2045): 45,5 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 40,5 GWh/a</p></div>
 </div>
 <script>
 const labels = ["Solarthermie", "Energieholz", "Oberfl. Geothermie (EWS & GWWP)", "Luft-Wasser-WP", "Fernw\u00e4rme", "Gew\u00e4sserthermie", "Biogas W\u00e4rme", "Gesamt (erneuerbar)"];
 const ist = [0.7, 10.0, 0.3, 2.1, 0.0, 0.0, 0.0, 13.1];
-const wirt = [1.9, 10.9, 0.0, 10.2, 7.4, 0.0, 0.0, 30.4];
+const wirt = [1.9, 8.4, 0.0, 10.2, 7.4, 0.0, 0.0, 27.8];
 const techx = [0.0, 0.0, 0.2, 20.9, 0.0, 36.3, 2.8, 60.2];
 // null, wenn die Zeile in der Excel fehlt -- die Linie entfaellt dann ganz.
 const gesamtbedarf = 57.6;
@@ -222,7 +222,7 @@ const layout = {
   // zehn Kategorien. automargin holt sich den noetigen Platz unten selbst.
   xaxis: { fixedrange: true, tickangle: -45, automargin: true, showline: true, linecolor: '#595959', linewidth: 1,
             tickfont: { size: 14 } },
-  yaxis: { fixedrange: true, title: { text: 'Nutzenergie [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
+  yaxis: { fixedrange: true, title: { text: 'Nutzwärme [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
             gridcolor: '#eee', zeroline: false, tickfont: { size: 14 },
             rangemode: 'nonnegative', showline: true, linecolor: '#595959', linewidth: 1 },
   // Interaktive Fassung: Legende rechts neben dem Diagramm. In der PNG-Fassung

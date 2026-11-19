@@ -3,32 +3,32 @@
 # Nicht die nackte URL aus dem src einfügen — dann erzwingt
 # StoryMaps eine eigene, flache Blockhöhe.
 
-Potenzialanalyse
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/potenzial_peissenberg.html" width="100%" height="550" title="Potenzialanalyse Peißenberg" style="border:0" loading="lazy"></iframe>
+Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/endenergie_struktur_peissenberg.html" width="100%" height="750" title="Peißenberg: Aufteilung des Endenergieverbrauchs nach Energieträger, Sektor und Gebäudetyp" style="border:0" loading="lazy"></iframe>
 
-Entwicklung Wärmemix Endenergie
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/waermemix_endenergie_peissenberg.html" width="100%" height="550" title="Entwicklung Wärmemix Endenergie Peißenberg" style="border:0" loading="lazy"></iframe>
-
-Entwicklung Wärmemix Nutzenergie
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/nutzwaerme_peissenberg.html" width="100%" height="550" title="Entwicklung Wärmemix Nutzenergie Peißenberg" style="border:0" loading="lazy"></iframe>
-
-Entwicklung CO₂-Emissionen
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/co2_entwicklung_peissenberg.html" width="100%" height="550" title="Entwicklung CO₂-Emissionen Peißenberg" style="border:0" loading="lazy"></iframe>
-
-Sanierungsszenario
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/sanierung_peissenberg.html" width="100%" height="550" title="Sanierungsszenario Peißenberg" style="border:0" loading="lazy"></iframe>
-
-Endenergieverbrauch
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/endenergie_struktur_peissenberg.html" width="100%" height="750" title="Endenergieverbrauch Peißenberg" style="border:0" loading="lazy"></iframe>
-
-Anteile der Energieträger
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/energietraeger_anteile_peissenberg.html" width="100%" height="561" title="Anteile der Energieträger Peißenberg" style="border:0" loading="lazy"></iframe>
+Endenergie- und Nutzwärmeverbrauch nach Energieträgern
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/energietraeger_anteile_peissenberg.html" width="100%" height="561" title="Peißenberg: Endenergie- und Nutzwärmeverbrauch nach Energieträgern" style="border:0" loading="lazy"></iframe>
 
 CO₂-Äquivalente
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/co2_aequivalent_peissenberg.html" width="100%" height="521" title="CO₂-Äquivalente Peißenberg" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_aequivalent_peissenberg.html" width="100%" height="521" title="Peißenberg: CO₂-Äquivalente" style="border:0" loading="lazy"></iframe>
 
 Wärme leitungsgebunden
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/waerme_leitungsgebunden_peissenberg.html" width="100%" height="531" title="Wärme leitungsgebunden Peißenberg" style="border:0" loading="lazy"></iframe>
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waerme_leitungsgebunden_peissenberg.html" width="100%" height="531" title="Peißenberg: Wärme leitungsgebunden" style="border:0" loading="lazy"></iframe>
 
-Feuerstätten
-<iframe src="https://ludwighagelstein.github.io/eko-kwp-charts/feuerstaetten_peissenberg.html" width="100%" height="421" title="Feuerstätten Peißenberg" style="border:0" loading="lazy"></iframe>
+Anzahl Feuerstätten nach Bauart und Energieträger
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/feuerstaetten_peissenberg.html" width="100%" height="421" title="Peißenberg: Anzahl Feuerstätten nach Bauart und Energieträger" style="border:0" loading="lazy"></iframe>
+
+Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/potenzial_peissenberg.html" width="100%" height="550" title="Peißenberg: Potenzialanalyse: Wirtschaftliches und technisches Potenzial je Energieträger" style="border:0" loading="lazy"></iframe>
+
+Entwicklung Wärmemix (Nutzwärme)
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/nutzwaerme_peissenberg.html" width="100%" height="550" title="Peißenberg: Entwicklung Wärmemix (Nutzwärme)" style="border:0" loading="lazy"></iframe>
+
+Entwicklung CO₂-Emissionen
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/co2_entwicklung_peissenberg.html" width="100%" height="550" title="Peißenberg: Entwicklung CO₂-Emissionen" style="border:0" loading="lazy"></iframe>
+
+Entwicklung Wärmemix Endenergie
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/waermemix_endenergie_peissenberg.html" width="100%" height="550" title="Peißenberg: Entwicklung Wärmemix Endenergie" style="border:0" loading="lazy"></iframe>
+
+Sanierungsszenario
+<iframe src="https://ewo-kompetenzzentrum-energie.github.io/kwp-diagramme/sanierung_peissenberg.html" width="100%" height="550" title="Peißenberg: Sanierungsszenario" style="border:0" loading="lazy"></iframe>
