@@ -167,24 +167,24 @@
     <h1 id="titel">Bad Tölz: Potenzialanalyse</h1>
     <button type="button" class="hinweis-schalter hinweis-zeichen" aria-expanded="false" aria-controls="datentabelle-hinweis" aria-label="Bedienung des Diagramms" onclick="hinweisUmschalten(this)">ⓘ</button>
   </div>
-  <p>Nutzwärme [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
+  <p>Nutzenergie [GWh/a] – Ist-Stand, wirtschaftliches und technisches Potenzial je Energieträger</p>
   <div id="datentabelle-hinweis" class="bedienhinweis hinweis-unten" role="note" hidden>Einzelne Datenreihen lassen sich über die Legende aus- und wieder einblenden — dafür den Eintrag auswählen. So lassen sich einzelne Anteile für sich betrachten oder miteinander vergleichen.</div>
 </div>
 <p id="hinweis" class="sr-only">Interaktives Diagramm. Die Legende ist mit der Tabulatortaste erreichbar; einzelne Datenreihen lassen sich dort mit Enter oder der Leertaste ein- und ausblenden. Alle Werte stehen unter dem Diagramm auch als Datentabelle.</p>
 <div id="chart" role="group" aria-labelledby="titel" aria-describedby="hinweis"></div>
 <div class="footer">
   <div class="footer-zeile">
-    <span>Quelle: Kommunale Wärmeplanung Bad Tölz, EWO-Kompetenzzentrum Energie EKO e.V.</span>
+    <span>Quelle: Kommunale Wärmeplanung Bad Tölz, EWO-Kompetenzzentrum Energie EKO e.V.; Hinweis: Energieholz und Gewässerthermie sind in der Fernwärme bereits berücksichtigt; die Gesamtsumme enthält sie nicht doppelt.</span>
     <button type="button" class="tabelle-schalter" aria-expanded="false" aria-controls="datentabelle"
             onclick="tabelleUmschalten(this)">Datentabelle anzeigen</button>
   </div>
-  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Bad Tölz: Nutzwärme in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>3,2</td><td>4,6</td><td>0,0</td><td>7,8</td></tr><tr><th scope="row">Energieholz</th><td>11,3</td><td>19,5</td><td>0,0</td><td>30,8</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,9</td><td>7,3</td><td>19,7</td><td>27,9</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>5,3</td><td>30,7</td><td>62,7</td><td>98,7</td></tr><tr><th scope="row">Umweltwärme Klärwasser</th><td>0,0</td><td>1,2</td><td>0,0</td><td>1,2</td></tr><tr><th scope="row">Fernwärme</th><td>9,4</td><td>41,6</td><td>7,0</td><td>58,0</td></tr><tr><th scope="row">ind. Abwärme (Prüfung ob EE)</th><td>0,0</td><td>0,0</td><td>1,4</td><td>1,4</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>3,2</td><td>0,0</td><td>3,2</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>30,2</td><td>88,5</td><td>90,9</td><td>209,6</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 171,7 GWh/a</p><p>konservatives Sanierungsszenario (2045): 134,1 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 119,7 GWh/a</p></div>
+  <div id="datentabelle" class="tabelle" hidden><table><caption>Potenzialanalyse Bad Tölz: Nutzenergie in GWh/a</caption><thead><tr><th scope="col">Energieträger</th><th scope="col">Ist 2023</th><th scope="col">wirtschaftliches Potenzial</th><th scope="col">technisches Potenzial</th><th scope="col">Summe</th></tr></thead><tbody><tr><th scope="row">Solarthermie</th><td>3,2</td><td>4,6</td><td>0,0</td><td>7,8</td></tr><tr><th scope="row">Energieholz</th><td>11,3</td><td>19,5</td><td>0,0</td><td>30,8</td></tr><tr><th scope="row">Oberfl. Geothermie (EWS &amp; GWWP)</th><td>0,9</td><td>7,3</td><td>19,7</td><td>27,9</td></tr><tr><th scope="row">Luft-Wasser-WP</th><td>5,3</td><td>30,7</td><td>62,7</td><td>98,7</td></tr><tr><th scope="row">Umweltwärme Klärwasser</th><td>0,0</td><td>1,2</td><td>0,0</td><td>1,2</td></tr><tr><th scope="row">Fernwärme</th><td>9,4</td><td>41,6</td><td>7,0</td><td>58,0</td></tr><tr><th scope="row">Gewässerthermie</th><td>0,0</td><td>8,3</td><td>0,0</td><td>8,3</td></tr><tr><th scope="row">ind. Abwärme (Prüfung ob EE)</th><td>0,0</td><td>0,0</td><td>1,4</td><td>1,4</td></tr><tr><th scope="row">Biogas Wärme</th><td>0,0</td><td>3,2</td><td>0,0</td><td>3,2</td></tr><tr><th scope="row">Gesamt (erneuerbar)</th><td>30,2</td><td>88,5</td><td>90,9</td><td>209,6</td></tr></tbody></table><p>Gesamtbedarf Nutzwärme 2023: 171,7 GWh/a</p><p>konservatives Sanierungsszenario (2045): 134,1 GWh/a</p><p>ambitioniertes Sanierungsszenario (2045): 119,7 GWh/a</p></div>
 </div>
 <script>
-const labels = ["Solarthermie", "Energieholz", "Oberfl. Geothermie (EWS & GWWP)", "Luft-Wasser-WP", "Umweltw\u00e4rme Kl\u00e4rwasser", "Fernw\u00e4rme", "ind. Abw\u00e4rme (Pr\u00fcfung ob EE)", "Biogas W\u00e4rme", "Gesamt (erneuerbar)"];
-const ist = [3.2, 11.3, 0.9, 5.3, 0.0, 9.4, 0.0, 0.0, 30.2];
-const wirt = [4.6, 19.5, 7.3, 30.7, 1.2, 41.6, 0.0, 3.2, 88.5];
-const techx = [0.0, 0.0, 19.7, 62.7, 0.0, 7.0, 1.4, 0.0, 90.9];
+const labels = ["Solarthermie", "Energieholz", "Oberfl. Geothermie (EWS & GWWP)", "Luft-Wasser-WP", "Umweltw\u00e4rme Kl\u00e4rwasser", "Fernw\u00e4rme", "Gew\u00e4sserthermie", "ind. Abw\u00e4rme (Pr\u00fcfung ob EE)", "Biogas W\u00e4rme", "Gesamt (erneuerbar)"];
+const ist = [3.2, 11.3, 0.9, 5.3, 0.0, 9.4, 0.0, 0.0, 0.0, 30.2];
+const wirt = [4.6, 19.5, 7.3, 30.7, 1.2, 41.6, 8.3, 0.0, 3.2, 88.5];
+const techx = [0.0, 0.0, 19.7, 62.7, 0.0, 7.0, 0.0, 1.4, 0.0, 90.9];
 // null, wenn die Zeile in der Excel fehlt -- die Linie entfaellt dann ganz.
 const gesamtbedarf = 171.7;
 const konservativ = 134.1;
@@ -222,7 +222,7 @@ const layout = {
   // zehn Kategorien. automargin holt sich den noetigen Platz unten selbst.
   xaxis: { fixedrange: true, tickangle: -45, automargin: true, showline: true, linecolor: '#595959', linewidth: 1,
             tickfont: { size: 14 } },
-  yaxis: { fixedrange: true, title: { text: 'Nutzwärme [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
+  yaxis: { fixedrange: true, title: { text: 'Nutzenergie [GWh/a]', standoff: 20 }, automargin: true, ticks: 'outside', ticklen: 8, tickcolor: 'rgba(0,0,0,0)',
             gridcolor: '#eee', zeroline: false, tickfont: { size: 14 },
             rangemode: 'nonnegative', showline: true, linecolor: '#595959', linewidth: 1 },
   // Interaktive Fassung: Legende rechts neben dem Diagramm. In der PNG-Fassung
